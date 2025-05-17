@@ -24,5 +24,4 @@ php artisan storage:link
 
 echo Instalação concluída com sucesso!
 
-echo iniciando serve!
-php artisan serve
+pause
