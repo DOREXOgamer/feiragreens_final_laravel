@@ -1,4 +1,12 @@
 @echo off
+echo Verificando se o arquivo .env existe...
+if not exist ".env" (
+    echo Criando arquivo .env a partir do .env.example...
+    copy .env.example .env
+) else (
+    echo Arquivo .env já existe.
+)
+
 echo Instalando dependências PHP com Composer...
 composer install
 
