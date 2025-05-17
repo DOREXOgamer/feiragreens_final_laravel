@@ -23,4 +23,6 @@ echo Criando link simbólico para storage...
 php artisan storage:link
 
 echo Instalação concluída com sucesso!
-pause
+
+echo iniciando serve!
+php artisan serve
